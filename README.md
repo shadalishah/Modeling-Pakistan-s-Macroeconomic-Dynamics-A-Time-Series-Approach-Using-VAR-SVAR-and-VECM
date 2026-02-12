@@ -29,7 +29,7 @@ This repository presents an applied macroeconometric analysis of Pakistan’s ec
 ## 🧭 Project Tasks & Workflow
 
 ### 1️⃣ Data Collection & Cleaning
-- Collect at least 10 years (40 quarters) of data  
+- Collect at least 11 years (44 quarters) of data  
 - Convert variables into time series format  
 - Log-transform and seasonally adjust where necessary  
 - Plot and visually inspect all time series  
@@ -46,7 +46,7 @@ This repository presents an applied macroeconometric analysis of Pakistan’s ec
 
 ### 3️⃣ Vector Autoregression (VAR)
 - Ensure all series are stationary  
-- Select optimal lag length using `VARselect()`  
+- Select optimal lag length 
 - Estimate the VAR model  
 - Perform:
   - Granger causality tests  
@@ -57,8 +57,7 @@ This repository presents an applied macroeconometric analysis of Pakistan’s ec
 
 ### 4️⃣ Structural VAR (SVAR)
 - Impose short-run identification (AB-model)  
-- Apply institutional restrictions (e.g., Blanchard–Perotti method)  
-- Estimate SVAR using `svars` or `vars` packages  
+- Apply institutional restrictions (e.g., Blanchard–Perotti method)    
 - Plot IRFs for:
   - Government spending → GDP and inflation  
   - Tax shocks → GDP  
@@ -67,8 +66,7 @@ This repository presents an applied macroeconometric analysis of Pakistan’s ec
 ---
 
 ### 5️⃣ Cointegration and VECM
-- Conduct Johansen cointegration tests  
-- Estimate VECM using `tsDyn` or `urca`  
+- Conduct Johansen cointegration tests    
 - Interpret long-run cointegrating relationships  
 - Explain short-run dynamics via error correction terms  
 
